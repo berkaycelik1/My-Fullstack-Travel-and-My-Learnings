@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page One</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Page One</h1>
+    <h1>HTML Semantik Yapı Rehberi</h1>
+    <main>
+        <section>
+    <h2>Bölüm 1: HTML Bir Programlama Dili Midir?</h2>
+    <p>Hayır, HTML bir "işaretleme" (markup) dilidir. Tarayıcıya içeriğin ne olduğunu söyler. Eğer bir metni sadece yazıp bırakırsanız tarayıcı onu düz bir yazı olarak görür. Ama onu <mark>&lt;h1&gt;</mark>içine alırsanız, tarayıcıya "Bu benim en önemli başlığım, onu büyük ve kalın yap!" demiş olursunuz.</p>
+
+        <h2>Bölüm 2: Semantik (Anlamsal) HTML Nedir?</h2>
+        <p>Eskiden her şey için sadece <mark>&lt;div&gt;</mark> (kutu) etiketini kullanırdık. Modern web dünyasında ise artık "Anlamsal HTML" kullanıyoruz. Bu, etiketin ismine bakarak içinde ne olduğunu anlamak demektir.
+        </p>
+        <ul>
+            <li><mark>&lt;header&gt;</mark>:Sayfanın veya bir bölümün giriş kısmını temsil eder.</li>
+            <li><mark>&lt;main&gt;</mark>:Sayfanın ana, benzersiz içeriğini kapsar.
+            </li>
+            <li><mark>&lt;article&gt;</mark>:Kendi başına anlam ifade eden (bir blog yazısı gibi) içeriklerdir.</li>
+            <li><mark>&lt;footer&gt;</mark>: Sayfanın en altındaki iletişim ve telif hakları kısmıdır.</li>
+        </ul>
+
+        <h2>Bölüm 3: HTML’in "İç İçe" Dünyası (Parent-Child)</h2>
+        <p>HTML'de en önemli kavramlardan biri hiyerarşidir. Bir etiketi diğerinin içine yazdığınızda, dıştaki etiket "ebeveyn" (parent), içteki ise "çocuk" (child) olur. CSS yazarken bu çocuklara ulaşmak için bu hiyerarşiyi bilmek hayati önem taşır.</p>
+        </section>
+    </main>
 </body>
 </html>
