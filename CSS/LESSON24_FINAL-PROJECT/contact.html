@@ -7,6 +7,7 @@
     <title>Contact Us - LTS</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -39,8 +40,8 @@
         </figure>
         </section>
 
-        <main class="main">
-        <article class="main__article contact">
+        <article class="main">
+        <article class="main__article">
             <h2 class="contact__h2">Our Location</h2>
             <address>
                 555 Taco Temptation Lane, Suite T<br>
@@ -49,19 +50,20 @@
                 Phone: <a href="tel:+5555555555">555-555-5555</a>
             </address>
     </article>
+    <hr>
     <main class="main">
-        <article class="main__article">
+        <article class="main__article contact">
             <h2>Our Contact Form</h2>
             <form action="https://httpbin.org/get" method="get" class="contact__form">
                 <fieldset class="contact__fieldset">
                     <legend class="offscreen">Send Us A Message</legend>
                     <p class="contact__p">
                         <label class="contact__label" for="name">Name:</label>
-                        <input class="contact__input name="name" placeholder="your name" required>
+                        <input class="contact__input" name="name" id="name" placeholder="your name" required>
                     </p>
                     <p class="contact__p">
                         <label class="contact__label" for="email">Email:</label>
-                        <input class="contact__input" name="email" placeholder="your email" required>
+                        <input class="contact__input" name="email" id="name" placeholder="your email" required>
                     </p>
                     <p class="contact__p">
                         <label class="contact__label" for="message">Your Message:</label>
@@ -77,7 +79,7 @@
 
     <footer class="footer">
         <p class="contact__p">
-            <span class="nowrap">Copyright &copy;</span>
+             <span class="nowrap">Copyright &copy; <time id="year"></time></span>
             <span class="nowrap">Little Taco Shop</span>
         </p>
      </footer>
