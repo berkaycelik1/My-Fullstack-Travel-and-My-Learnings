@@ -1,0 +1,59 @@
+body {
+   background-color: blue;
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+#search-input {
+    width: 70%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+#search-btn {
+    padding: 15px;
+    background-color:burlywood;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: brown;
+}
+
+.profile-card {
+    background-color: rgb(51, 51, 243);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.profile-card img {
+    border-radius: 50%;
+    border: 4px solid burlywood;
+}
+
+.profile-card h2 {
+    margin: 20px;
+    color: aliceblue;
+}
+
+.profile-card p {
+    color: beige;
+    line-height: 1.5;
+}
+
