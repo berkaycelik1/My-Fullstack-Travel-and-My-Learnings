@@ -1,0 +1,46 @@
+body {
+    background-color: #0b0c10; 
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#saat-kutusu {
+    font-size: 6rem; 
+    font-weight: bold;
+    color: #66fcf1; 
+    text-shadow: 0 0 20px rgba(102, 252, 241, 0.6); 
+    letter-spacing: 5px; 
+}
+
+button[data-micromodal-trigger] {
+    padding: 15px 40px;
+    background-color: #e43f5a; 
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 5px 15px rgba(228, 63, 90, 0.4);
+}
+
+button[data-micromodal-trigger]:hover {
+    background-color: #ff4b6b;
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 25px rgba(228, 63, 90, 0.6);
+}
+
+#ulke-secimi {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 15px;
+}
