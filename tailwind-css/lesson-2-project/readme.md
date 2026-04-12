@@ -14,7 +14,7 @@ Bu proje, Tailwind CSS öğrenme serüvenimde geliştirdiğim, tamamen duyarlı 
 
 *(Aydınlık ve Karanlık Mod görünümleri)*
 
-![Acme Rockets Final](img/final-ss.png)
+![Acme Rockets Final](build/img/final-ss.png)
 
 ## 🛠️ Kullanılan Teknolojiler
 
