@@ -1,28 +1,40 @@
 # 🚀 Acme Rockets - Tailwind CSS Landing Page
 
-Bu proje, Tailwind CSS öğrenme serüvenimde geliştirdiğim, tamamen duyarlı (responsive) ve karanlık mod (dark mode) destekli bir modern web sitesi açılış sayfasıdır (landing page). 
+Bu proje, modern web teknolojilerini kullanarak geliştirilmiş, tamamen duyarlı (responsive) ve karanlık mod (dark mode) destekli bir "landing page" çalışmasıdır.
 
-## 🌟 Proje Özellikleri ve Öğrenilen Kavramlar
+## 🌟 Öne Çıkan Özellikler
 
-- **Mobile-First (Önce Mobil) Tasarım:** Tailwind'in `sm:` (small screens) breakpoint'leri kullanılarak mobil cihazlardan masaüstü ekranlara kusursuz geçiş sağlandı. (Örn: Mobilde hamburger menü, masaüstünde yatay navigasyon).
-- **Karanlık Mod (Dark Mode):** İşletim sisteminin veya tarayıcının temasına göre otomatik değişen renk paleti eklendi (`dark:bg-black`, `dark:text-white`).
-- **Flexbox Layout:** Sayfa iskeleti, navigasyon barı ve roket kartları `flex` yapısı ile hizalandı ve boşluklandırıldı.
-- **Modern UI Bileşenleri:** Gölgelendirmeler (`shadow-xl`), yuvarlak köşeler (`rounded-3xl`) ve şeffaflık efektleri (`hover:opacity-90`) ile modern bir arayüz tasarlandı.
-- **Smooth Scrolling (Akıcı Kaydırma):** Sayfa içi link (anchor) yönlendirmelerinde yumuşak geçişler ve üstte yapışkan kalan menünün (sticky header) başlıkları kapatmaması için `scroll-mt` (scroll margin top) ayarları uygulandı.
-
-## 📸 Proje Görseli
-
-![Acme Rockets Final](build/img/final-ss.png)
+- **Modern Tasarım:** Tailwind CSS v3 kullanılarak oluşturulmuş estetik ve işlevsel arayüz.
+- **Karanlık Mod Desteği:** Kullanıcının sistem tercihine göre otomatik uyum sağlayan koyu tema desteği.
+- **Duyarlı (Responsive) Yapı:** Mobil cihazlardan geniş ekranlara kadar kusursuz görünüm.
+- **İnteraktif Mobil Menü:** JavaScript ile kontrol edilen, tıklanınca "X" işaretine dönüşen hamburger menü animasyonu.
+- **Özel Animasyonlar:** CSS keyframe'leri ile desteklenen "open-menu" animasyonu.
+- **Erişilebilirlik:** Semantik HTML etiketleri ve ARIA etiketleri ile optimize edilmiş yapı.
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- HTML5
-- Tailwind CSS (v3 - JIT Compiler)
-- NPM (Node Package Manager)
+- **HTML5:** Sayfa yapısı ve içeriği.
+- **Tailwind CSS v3:** Yardımcı sınıf tabanlı (utility-first) stil yönetimi.
+- **JavaScript (Vanilla):** Menü etkileşimi ve DOM yönetimi.
+- **NPM:** Paket yönetimi ve derleme süreçleri.
 
-## 🚀 Nasıl Çalıştırılır?
+## 📸 Ekran Görüntüsü
 
-1. Projeyi bilgisayarınıza indirin veya klonlayın.
-2. Gerekli bağımlılıkları kurmak için terminalde `npm install` komutunu çalıştırın.
-3. Tailwind derleyicisini başlatmak için: `npm run tailwind`
-4. `build/index.html` dosyasını VS Code Live Server ile açarak tarayıcıda görüntüleyin.
+![Acme Rockets Önizleme](build/img/light.png)
+![Acme Rockets Önizleme](build/img/dark.png)
+
+## 📁 Proje Yapısı
+
+- `build/index.html`: Ana sayfa içeriği.
+- `build/js/main.js`: Mobil menü ve buton animasyon mantığı.
+- `src/input.css`: Özel Tailwind katmanları ve animasyon tanımları.
+- `build/css/style.css`: Derlenmiş (production-ready) CSS dosyası.
+- `build/img/`: Vektörel roket görselleri ve medya dosyaları.
+
+## 🚀 Başlangıç ve Kurulum
+
+Projeyi yerel ortamınızda çalıştırmak için:
+
+1. **Bağımlılıkları Yükleyin:**
+   ```bash
+   npm install
