@@ -1,35 +1,31 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
-    color: white;
-}
-
-h1 {
-    margin-top: 30px;
-}
-
-.nav-list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+    font-family: 'Inter', sans-serif;
+    background-color: #282D35; /* Sitenin koyu arka planı */
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #21222A; /* Menünün daha koyu siyahı */
+    padding: 30px 25px; 
 }
 
-.nav-list-item {
-    margin-left: 10px;
-    font-size: 1.1rem;
+.nav {
+    display: flex;
+    align-items: center; 
 }
 
 .nav-logo {
-    width: 55px;
+    width: 30px; 
+    margin-right: 10px; 
+}
+
+.nav-title {
+    color: #61DAFB; 
+    font-weight: 700; 
+    font-size: 22px;
 }
