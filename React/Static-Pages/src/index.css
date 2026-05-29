@@ -29,3 +29,29 @@ body {
     font-weight: 700; 
     font-size: 22px;
 }
+
+.main {
+    color: white;
+    padding: 60px 30px;
+    background-image: url('/react-logo.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 39px;
+}
+
+.main-facts {
+    margin-top: 46px;
+}
+
+.main-facts li {
+    padding-block: 10px;
+}
+
+.main-facts li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
