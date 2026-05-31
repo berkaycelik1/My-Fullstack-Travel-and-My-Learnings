@@ -1,16 +1,32 @@
-# React + Vite
+# 🌍 Travel Journal - Data-Driven React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dynamic travel journal built with React. It transitions from static, hard-coded HTML structures to a fully **data-driven architecture** using reusable components and JavaScript array methods.
 
-Currently, two official plugins are available:
+## 📸 Project Screenshot
+![Travel Journal Desktop View](./images/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🧠 Core Concepts Learned & Applied
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Component Reusability
+Instead of manually typing out HTML for every single travel destination, the UI was broken down into modular, reusable building blocks (e.g., `<Entry />`, `<Header />`). This "template" approach ensures scalability and easier maintenance.
 
-## Expanding the ESLint configuration
+### 2. Props (Data Passing)
+Implemented React `props` to pass data dynamically from a parent component (`App.jsx`) to child components (`Entry.jsx`). 
+* Transformed static elements into dynamic JSX portals `{}`.
+* Utilized **Object Destructuring** for cleaner, more readable component code.
+* Handled various data types (Strings, Numbers, Booleans) correctly using JSX syntax.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Array Mapping (`.map()`)
+Automated the component rendering process. Instead of hardcoding `<Entry />` instances, a raw data array (`data.js`) acts as the single source of truth. 
+* Used the JavaScript `.map()` method to iterate over the data and return an array of JSX components.
+* Implemented the `key` prop securely using unique IDs to ensure React efficiently tracks and updates the DOM elements.
+
+---
+
+## 🛠️ Tech Stack
+* **React** (Functional Components, Props, JSX)
+* **Vite** (Build Tool & Development Server)
+* **JavaScript (ES6+)** (Destructuring, Array Methods)
+* **CSS3** (Flexbox, Responsive Layouts)
