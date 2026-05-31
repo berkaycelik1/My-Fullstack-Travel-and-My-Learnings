@@ -4,7 +4,6 @@
 This project is a dynamic travel journal built with React. It transitions from static, hard-coded HTML structures to a fully **data-driven architecture** using reusable components and JavaScript array methods.
 
 ## 📸 Project Screenshot
-![Travel Journal Desktop View](./images/screenshot.png)
 <img width="608" height="782" alt="screenshot" src="https://github.com/user-attachments/assets/264d0e35-6cd3-4b56-ba82-20ae8521e68a" />
 
 ---
