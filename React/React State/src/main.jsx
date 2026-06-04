@@ -1,4 +1,15 @@
-import ReactDOM from 'react-dom/client';
-import App from "./App"
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+export default function Main() {
+    return (
+        <main>
+            <form className="add-ingredient-form">
+                <input 
+                    type="text"
+                    placeholder="e.g. oregano"
+                    aria-label="Add ingredient"
+                />
+                <button>Add ingredient</button>
+            </form>
+        </main>
+    )
+    
+}
