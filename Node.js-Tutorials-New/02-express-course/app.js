@@ -13,7 +13,11 @@ app.get('/api/people', (req, res) => {
 })
 
 app.post('/api/people', (req, res) => {
-    res.status(201).send('Success')
+    const {name} = req.body
+    if(!name){
+        return res.status(400).json({ success: false, msg: 'Please provide name value'})
+    }
+    res.status(201).send({success: true, person: name})
 })
 
 app.post('/login', (req, res) => {
