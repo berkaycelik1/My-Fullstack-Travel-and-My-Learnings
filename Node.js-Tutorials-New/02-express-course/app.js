@@ -11,6 +11,8 @@ app.get('/api/people', (req, res) => {
 })
 
 app.post('/login', (req, res) => {
+    console.log(req.body);
+    
     res.send('POST')
 })
 
